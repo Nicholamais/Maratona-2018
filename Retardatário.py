@@ -14,7 +14,7 @@ if x > y:
 # 1 = (1/x-1/y)*t
 # t = 1/(1/x-1/y)
 # t = (y*x)/(y-x)
-# A volta N é dado por t/x
+# A volta N é dado por int de t/x
 # N = y/(y-x)
 
 print('O encontro se dará na ' , int(y/(y-x)),'ª volta.')

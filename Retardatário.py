@@ -1,7 +1,7 @@
 import sys
 
-x = int(input('Entre com o tempo do piloto mais rápido: \n'))
-y = int(input('Entre com o tempo do piloto mais lento: \n'))
+x = float(input('Entre com o tempo do piloto mais rápido: \n'))
+y = float(input('Entre com o tempo do piloto mais lento: \n'))
 
 if x > y:
     print('O primeiro valor deve ser menor do que o segundo.')
@@ -18,4 +18,4 @@ if x > y:
 # N é numero da volta
 # N = int((y-x)/(y*x)/x)
 
-print('O encontro se dará na ' , int((y*x)/(y-x)/x),'ª volta.')
+print('O encontro se dará na ' , int((y*x)/(y-x)/x+1),'ª volta.')
